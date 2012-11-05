@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <frontend>
+        <layout>
+            <updates>
+                <threeAArt_reset>
+                    <file>threeAArt_reset.xml</file>
+                </threeAArt_reset>
+                <threeAArt_custom>
+                    <file>threeAArt_custom.xml</file>
+                </threeAArt_custom>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <design>
+            <theme>
+                <template>threeAArt</template>
+                <default>threeAArt</default>
+                <layout>threeAArt</layout>
+            </theme>
+        </design>
+    </default>
+</config>

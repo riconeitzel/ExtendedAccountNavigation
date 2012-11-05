@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <ThreeAArt_Theme>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Page />
+                <Mage_Catalog />
+                <Mage_Widget />
+            </depends>
+        </ThreeAArt_Theme>
+    </modules>
+</config>
