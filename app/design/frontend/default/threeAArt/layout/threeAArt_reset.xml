@@ -1,29 +1,6 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
-        <reference name="content">
-            <block type="core/text" name="mytext">
-                <action method="setText">
-                    <text>
-                        <![CDATA[
-<h1>Herzlich Willkommen im Künstler Bereich von 3aArt</h1>
-<p>Bitte erstellen Sie sich einen Account, in dem Sie hier klicken:<p>
-
-            <p>&lt;&lt; Zur Registrierung / zum Log-In Bereich</p>
-
-            <p>Darunter die Impressum Daten:</p>
-            <address>Judith Grote<br />
-            Art Basel Gallery UG<br />
-            Erika-Köth Strasse 5<br />
-            85598 Baldham<br /> <br />
-            Ust-Id-Nr.: DE277782863<br />
-            HRB: 191197
-            </address>
-]]>
-                    </text>
-                </action>
-            </block>
-        </reference>
         <remove name="right" />
         <reference name="left">
             <!-- Callouts -->
@@ -39,11 +16,9 @@
             <remove name="top.search" />
         </reference>
         <remove name="footer" />
+        <remove name="cart_sidebar" />
+        <remove name="catalog.compare.sidebar" />
     </default>
-    <customer_account>
-        <!-- Mage_Tag -->
-        <remove name="customer_account_navigation" />
-    </customer_account>
     <customer_account_index>
         <!-- Mage_Tag -->
         <remove name="customer_account_dashboard" />

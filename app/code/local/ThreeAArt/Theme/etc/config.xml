@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+    <modules>
+        <ThreeAArt_Theme>
+            <version>0.1.0</version>
+        </ThreeAArt_Theme>
+    </modules>
+    <global>
+        <blocks>
+            <threeaart_theme>
+                <class>ThreeAArt_Theme_Block</class>
+            </threeaart_theme>
+        </blocks>
+    </global>
     <frontend>
         <layout>
             <updates>
