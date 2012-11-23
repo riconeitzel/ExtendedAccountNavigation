@@ -26,15 +26,16 @@
     </frontend>
     <default>
         <design>
-        <theme>
-            <template>threeAArt</template>
-            <default>threeAArt</default>
-            <layout>threeAArt</layout>
-        </theme>
-        <header>
-            <logo_src>images/3a-art-anytime-any-art.png</logo_src>
-            <logo_alt>3aArt - Anytime Any Art</logo_alt>
-            <welcome>Herzlich Willkommen bei 3aArt</welcome>
-        </header>
+            <theme>
+                <template>threeAArt</template>
+                <default>threeAArt</default>
+                <layout>threeAArt</layout>
+            </theme>
+            <header>
+                <logo_src>images/3a-art-anytime-any-art.png</logo_src>
+                <logo_alt>3aArt - Anytime Any Art</logo_alt>
+                <welcome>Herzlich Willkommen bei 3aArt</welcome>
+            </header>
+        </design>
     </default>
 </config>
